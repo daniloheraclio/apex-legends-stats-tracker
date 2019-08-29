@@ -1,19 +1,17 @@
 <template>
   <div class="container">
     <Header />
-    <Search />
+    <router-view />
   </div>
 </template>
 
 <script>
 import Header from './components/Header';
-import Search from './components/Search';
 
 export default {
   name: 'app',
   components: {
-    Header,
-    Search
+    Header
   },
 }
 </script>
@@ -46,7 +44,7 @@ ul {
   list-style: none;
 }
 
-.body-bg-no-image {
+.body-bg-image {
   background: var(--primary-color) url("./assets/octane.png") no-repeat top center;
 }
 
@@ -62,7 +60,7 @@ ul {
 }
 
 .search {
-  background: #2c3e50;
+  background: rgba(0, 0, 0, 0.7);
   border: 4px #fff solid;
   margin-top: 1rem;
   padding: 2rem;
