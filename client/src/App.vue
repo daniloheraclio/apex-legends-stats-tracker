@@ -1,16 +1,19 @@
 <template>
-  <div id="app">
+  <div class="container">
     <Header />
+    <Search />
   </div>
 </template>
 
 <script>
 import Header from './components/Header';
+import Search from './components/Search';
 
 export default {
   name: 'app',
   components: {
-    Header
+    Header,
+    Search
   },
 }
 </script>
@@ -20,7 +23,6 @@ export default {
   --primary-color: #953036;
   --secondary-color: #2c3e50;
 }
-
 
 * {
   box-sizing: border-box;
