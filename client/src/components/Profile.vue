@@ -86,7 +86,7 @@ export default {
             this.loading = false;
         } catch (err) {
             this.loading = false;
-            this.error = res.data.message;
+            this.error = err.response.data.message;
         }
     }
 }
