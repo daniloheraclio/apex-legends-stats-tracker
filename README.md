@@ -2,6 +2,9 @@
 
 Full stack Vue/Express app using the Tracker Network API to track player stats created by traversy media
 
+![](https://github.com/daniloheraclio/apex-legends-stats-tracker/blob/master/client/src/assets/apex00.jpg)
+![](https://github.com/daniloheraclio/apex-legends-stats-tracker/blob/master/client/src/assets/apex01.jpg)
+
 ## Quick Start
 
 Register and get your API key from https://tracker.gg/developers
